@@ -1,28 +1,159 @@
-/* h1{
-    font-family: 'Caveat', cursive;
-font-family: 'Open Sans', sans-serif;
-} */
-body{
-    background-color: #FDF7E9;
-    width: 100%;
+/* regular open sans*/
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
   
-
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-Light.ttf) format('truetype');
+    font-weight: 300; 
+    font-style: light;
 }
-.check{
-    width: 100%;
-flex-shrink: 0;
-margin: 0;
-padding: 0;
-position: relative;
-height: 100%;
-    display: block;
-    left: 0;
-    top:0;
-
-}
-.checkimg{
-    width: 100%;
-
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-SemiBold.ttf)format('truetype');
+    font-weight: 600;
+    font-style: bold;
 }
 
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-Bold.ttf)format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+/* italic open sans */
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-Italic.ttf)format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-LightItalic.ttf)format('truetype');
+    font-weight: 300;
+    font-style: light italic;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-BoldItalic.ttf)format('truetype');
+    font-weight: 700;
+    font-style: bold italic;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-ExtraBoldItalic.ttf)format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../font/OpenSans-SemiBoldItalic.ttf)format('truetype');
+    font-weight: 600;
+    font-style:  italic;
+}
+
+/* condensed open sans */
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-Bold.ttf);
+    font-style: bold;
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-Light.ttf)format('truetype');
+    font-weight: 300;
+    font-style: light;
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-Regular.ttf)format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-SemiBold.ttf)format('truetype');
+    font-weight: 600;
+    font-style: bold;
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans-ExtraBold.ttf)format('truetype');
+    font-weight: 800;
+    font-style: extra bold;
+}
+/* condensed italic open sans */
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-LightItalic.ttf)format('truetype');
+    font-weight: 300;
+    font-style: light italic;
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-Italic.ttf)format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-SemiBoldItalic.ttf)format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-BoldItalic.ttf)format('truetype');
+    font-weight: 700;
+    font-style: bold italic;
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../font/OpenSans_Condensed-ExtraBoldItalic.ttf)format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+html{
+    background-color: #FDF7E9;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1280px;
+    overflow-x: hidden;
+  }
+  /* ПЕРВЫЙ ЭКРАН НАЧАЛО*/
+.firstscreen {
+    position: relative;
+    width: 1280px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+  }
+  .check{
+    width: 1280.002px;
+    height: 90.316px;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .leaf1{
+    margin-top: 196px;
+  margin-left: 26px;
+  object-fit: none;
+  
+  }
+  .leaf2{
+    margin-top: 196px;
+    margin-right: 26px;
+  }
 
