@@ -145,15 +145,25 @@ body {
     flex-shrink: 0;
     padding: 0;
     margin: 0;
+    object-fit: fill;
+   
   }
   .leaf1{
     margin-top: 196px;
   margin-left: 26px;
-  object-fit: none;
+  object-fit: inherit;
+  position: absolute;
+  top: 196px;
+  left: 26px;
+  
   
   }
   .leaf2{
     margin-top: 196px;
     margin-right: 26px;
+    object-fit: inherit;
+    position: absolute;
+  top: 196px;
+  right: 26px;
   }
 
