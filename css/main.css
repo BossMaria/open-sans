@@ -1,135 +1,18 @@
-/* regular open sans*/
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-Light.ttf') format('truetype');
-    font-weight: 300; 
-    font-style: light;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-SemiBold.ttf')format('truetype');
-    font-weight: 600;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-Bold.ttf')format('truetype');
-    font-weight: 700;
-    font-style: bold;
-}
-
-/* italic open sans */
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-Italic.ttf')format('truetype');
-    font-weight: 400;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-LightItalic.ttf')format('truetype');
-    font-weight: 300;
-    font-style: light italic;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-BoldItalic.ttf')format('truetype');
-    font-weight: 700;
-    font-style: bold italic;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-ExtraBoldItalic.ttf')format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/OpenSans-SemiBoldItalic.ttf')format('truetype');
-    font-weight: 600;
-    font-style:  italic;
-}
-
-/* condensed open sans */
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-Bold.ttf')format('truetype');
-    font-weight: 700;
-    font-style: bold;
-}
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-Light.ttf')format('truetype');
-    font-weight: 300;
-    font-style: light;
-}
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-Regular.ttf')format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-SemiBold.ttf')format('truetype');
-    font-weight: 600;
-    font-style: bold;
-}
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans-ExtraBold.ttf')format('truetype');
-    font-weight: 800;
-    font-style: extra bold;
-}
-/* condensed italic open sans */
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-LightItalic.ttf')format('truetype');
-    font-weight: 300;
-    font-style: light italic;
-}
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-Italic.ttf')format('truetype');
-    font-weight: 400;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-SemiBoldItalic.ttf')format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-BoldItalic.ttf')format('truetype');
-    font-weight: 700;
-    font-style: bold italic;
-}
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../font/OpenSans_Condensed-ExtraBoldItalic.ttf')format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}
 
 html{
-    background-color: #FDF7E9;
+    background-color: #FDF7E9;   
+}
+h1,h2,h3{
+    overflow: hidden;
+    
 }
 h1{
     font-size: 50px;
 }
 body {
     width: 100%;
+     
 }
 .head{
     position: relative;
@@ -138,11 +21,10 @@ body {
 .firstscreen {
     position: relative;
     width: 100%;
-    
+
 }
 .check{
     width: 100%;
-    
     padding: 0;
     margin: 0;
 }
@@ -165,7 +47,7 @@ width: 100%;
     
 }
 .header1 {
-    font-family: 'Open Sans Condensed';
+    font-family: "OpenSans_Condensed-Italic";
     font-weight: 400;
     text-align: center;
     font-style: italic;
@@ -176,19 +58,17 @@ width: 100%;
     padding-left: 46.5%;
 }
 .author{
-    justify-content: center;
+    
     color: #FDF7E9;
-    font-family: 'Open Sans';
+    font-family: 'OpenSans_Condensed-Bold';
     position: absolute;
-    font-weight: 700;
     margin-top: -15.5%;
-   
     padding-left: 42%;
     font-size: 28px;
 }
 
 .date{
-    font-family: 'Open Sans';
+    font-family: 'OpenSans-Regular';
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -219,10 +99,10 @@ text-align: center;
 }
 
 .header4{
-    font-family: 'Open Sans Condensed';
+    font-family: 'OpenSans_Condensed-Bold';
     color: #F40E1E;
 font-size: 50px;
-margin-top: 5%;
+margin-top: 10%;
 font-weight: 700;
 padding-left: 10%;
 
@@ -230,10 +110,11 @@ padding-left: 10%;
 .description{
     color: #016361;
 
-font-family: Open Sans;
+    font-family: 'OpenSans-Regular';
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
+line-height: normal;
 padding-left: 10%;
 margin-top: 1%;
 }
@@ -241,8 +122,1056 @@ margin-top: 1%;
 .stikercomp{
     position: relative;
     width: 100%;
-    max-width: 370px;
+    height: 100%;
+    margin-top: -25%;
+    padding-left: 70%;
 }
 .stiker{
     position: absolute;
+    width: 330px;
+    height: 330px;
+}
+/* <!-- ТРЕТИЙ БЛОК МЕНЮ --> */
+
+.thirdblock{
+    position: relative;
+    margin-top: 5%;
+    width: 1440px;
+}
+.menuback{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.cloth{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin-top: 30%;
+}
+.menu{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -89%;
+    display: flex;
+    justify-content: center;
+}
+.menu1{
+    position: absolute;
+    width: 422px;
+    height: 124px;
+}
+.menutext2{
+    color: var(--fb-858-d, #F40E1E);
+    text-align: center;
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    position: relative;   
+}
+.menuback2{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    overflow-x: hidden;
+}
+.menuback3{
+    width: 80%;
+    
+}
+/* ЗАГОЛОВКИ МЕНЮ */
+.menuheader{
+    text-align: center;
+    position: relative;
+    margin-top: -70%;
+}
+.family{
+color: #F40E1E;
+font-family: 'OpenSans-ExtraBold';
+
+}
+.subtext{
+    font-family: 'OpenSans-SemiBoldItalic';
+    color: var(--016361, #016361);
+
+font-size: 24px;
+}
+/* ЗАГОЛОВКИ СТИЛЕЙ */
+.styleheader1{
+    text-align: center;
+    /* position: relative; */
+    margin-top: 9%;
+    margin-left: -35%;
+    
+    
+}
+
+.nado{
+    overflow: hidden;
+
+}
+/* не работает комнеднсед */
+.standart{
+    color: #F40E1E;
+    font-family: "OpenSans_Condensed-ExtraBold";
+    text-align: center;
+}
+
+.subtext1{
+    font-family: 'OpenSans-SemiBoldItalic';
+    color: var(--016361, #016361);
+    font-size: 24px;
+    text-align: center;
+
+}
+.styleheader2{
+    text-align: center;
+    /* position: relative; */
+    margin-right: -35%;
+    margin-top: -8.5%;
+}
+.condensed{
+    color: #F40E1E;
+    font-family: "OpenSans_Condensed-ExtraBold";
+    text-align: center;
+    font-style: bold;
+}
+.subtext2{
+    font-family: 'OpenSans-SemiBoldItalic';
+    color: var(--016361, #016361);
+    font-size: 24px;
+    text-align: center;
+}
+/* 1 КОНТЕЙНЕР СТИЛЕЙ */
+.opensans{
+    position: relative;
+    color: #016361;
+    /* text-align: center; */
+    /* margin-top: -36%; */
+    margin-top: 10%;
+    line-height: 220.182%;
+    font-size: 16px;
+    margin-left: -35%;
+    text-align: center;
+   
+    
+
+}
+/* СТИЛИ ШРИФТА */
+
+.light{
+    font-family: 'OpenSans-Light';
+    position: relative; 
+    width: 100%; 
+}
+.italiclight{
+    font-family: 'OpenSans-LightItalic';  
+}
+.regular{
+    font-family: 'OpenSans-Regular';
+}
+
+.italicregular{
+    font-family: 'OpenSans-Italic';
+    font-weight: 400;
+    font-style: italic; 
+}
+.semibold{
+    font-family: 'OpenSans-SemiBold';
+}
+.italicsemibold{
+    font-family: 'OpenSans-SemiBoldItalic';
+    font-weight: 600;
+    font-style: bold italic;
+}
+.bold{
+    font-family: 'OpenSans-Bold';
+}
+.italicbold{
+    font-family: 'OpenSans-BoldItalic';
+}
+.extrabold{
+    font-family: 'OpenSans-ExtraBold';
+}
+
+.italicextrabold{
+    font-family: 'OpenSans-ExtraBoldItalic';
+    font-weight: 800;
+    font-style: bold italic;
+}
+/* 2 КОНТЕЙНЕР СТИЛЕЙ */
+.opensans2{
+    position: relative;
+    color: #016361;
+    /* text-align: center; */
+    /* margin-top: -36%; */
+    margin-top: -24.5%;
+    line-height: 220.182%;
+    font-size: 16px;
+    margin-right: -35%;
+    text-align: center;
+   
+}
+/* СТИЛИ ШРИФТА */
+.lightcondenced{
+    font-family: "OpenSans_Condensed-Light";
+}
+.italiclightcondenced{
+    font-family: "OpenSans_Condensed-LightItalic";
+}
+.regularcondenced{
+    font-family: "OpenSans_Condensed-Regular";
+}
+.italicregularcondenced{
+    font-family: "OpenSans_Condensed-Italic";
+    font-weight: 400;
+    font-style: italic;
+}
+.semiboldcondensed{
+    font-family: "OpenSans_Condensed-Bold";
+}
+.italicsemiboldcondenced{
+    font-family: "OpenSans_Condensed-SemiBoldItalic";
+    font-weight: 600;
+    /* font-style: italic; */
+}
+.boldcondenced{
+    font-family: "OpenSans_Condensed-Bold";
+}
+.italicboldcondenced{
+    font-family: "OpenSans_Condensed-BoldItalic";
+}
+.extraboldcondenced{
+    font-family: "OpenSans_Condensed-ExtraBold";
+}
+.italicextraboldcondenced{
+    font-family: "OpenSans_Condensed-ExtraBoldItalic";
+}
+/* <!-- ЧЕТВЕРТЫЙ БЛОК МЕНЮ --> */
+.poster1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.freepizza{
+    position: absolute;
+    width: 540px;
+    height: 771px;
+}
+.kinzaimg{
+    position: relative;
+    padding-top: -15%;
+    padding-left: 72%;
+    overflow: hidden;
+
+}
+.kinza{
+    position: relative;
+    width: 254px;
+    height: 300px;
+    overflow: hidden;
+}
+.pizzabox1{
+    position: relative;
+    padding-top: 5%;
+    padding-left: 64%;
+    overflow: hidden;
+}
+.pizzaboxface{
+    position: relative;
+    width: 383px;
+    height: 390px;
+}
+.textforposter1{
+    font-family: "OpenSans_Condensed-Bold";
+    font-weight: 700;
+    font-style: bold;
+    position: relative;
+    
+}
+.pizzapostertext1{
+    font-size: 23px;
+    margin-top: -47%;
+    margin-left: 15%;
+    color: #FDF7E9;
+}
+.pizzapostertext2{
+    font-size: 40px;
+    margin-top: -4%;
+    margin-left: 39%;
+    color: #FDF7E9;
+}
+.pizzapostertext3{
+    margin-top: 32.5%;
+    margin-left: 14.55%;
+    color: var(--fdf-7-e-9, #FDF7E9);
+}
+
+/* <!-- ПЯТЫЙ БЛОК МЕНЮ --> */
+.fifthblock{
+    display: flex;
+    margin-top: 10%;
+}
+
+.fontissue1{
+    /* position: relative; */
+    width: 900px;
+    /* height: 552px; */
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.divtomatooil{
+    display: flex;
+    justify-content: space-around;
+    width: 547px;
+    align-items: baseline;
+    margin-left: -250px;
+    margin-top: 235px;
+}
+.divoliveoil{
+    width: 100%;
+}
+.oliveoil{
+    width: 218px;
+    height: 609px;
+}
+.divtomatosoup{
+    width: 100%;
+    
+}
+.tomatosoup{
+    width: 255px;
+    height: 404px;
+    
+}
+.h2tomatosoup{
+    font-size: 24px;
+    text-align: left;
+    color: #F40E1E;
+    font-family: 'OpenSans-Bold';
+    margin-left:  -77%;
+    margin-top: 6.5%;
+    line-height: normal;
+}
+/* <!-- ШЕСТОЙ БЛОК  буквы с макаронами--> */
+.sixthblock{
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 803px;
+    background-color: #016361;
+    padding: 0;
+    
+}
+.letters1{
+    margin-top: 14%;
+
+}
+.letters2{
+width: 1440px;
+
+
+}
+.h2sb{
+  font-size: 24px;
+    text-align: left;
+    color: #FDF7E9;
+    font-family: 'OpenSans-Bold';
+    margin-left:  -89.5%;
+    margin-top: 6.5%;
+    line-height: normal;
+}
+
+
+/* СЕДЬМОЙ БЛОК */
+.seventhblock{
+    margin-top: 10%;
+}
+.divposter2{
+    margin-top: -15%;
+   margin-left: 10%;
+    width:633px;
+    height: 884px;
+    display: flex;
+    position: relative;
+}
+.poster2{
+    
+    width:633px;
+    height: 884px;
+}
+.p1and2{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 68px;
+    margin-top: 38px;
+    font-family: "OpenSans_Condensed-Bold";
+    font-size: 32px;
+    position: absolute;
+    line-height: 98%;
+    color: #FDF7E9;
+}
+.p2{
+    text-align: right;
+}
+.p3{
+    position: absolute;
+    text-align: center;
+    font-size: 85px;
+    line-height: 98%; 
+    display: flex;
+    justify-content: center;
+    margin-left: 228px;
+    font-family: "OpenSans_Condensed-ExtraBoldItalic";
+    margin-top: 30px;
+    color: #FDF7E9;
+    
+}
+.p4{
+    position: absolute;
+    text-align: center;
+    font-size: 113px;
+    text-decoration-line: underline;
+    text-align: center;
+    font-family: "OpenSans_Condensed-ExtraBold";
+    margin-top: 218px;
+    margin-left: 88px;
+    color: #FDF7E9;
+}
+.p5{
+    position: absolute;
+    font-size: 113px;
+    font-family: "OpenSans_Condensed-Bold";
+    margin-left: 119px;
+    margin-top: 335px;
+    color: #FDF7E9;
+}
+.p6{
+    position: absolute;
+    font-size: 85px;
+    margin-left: 369px;
+    font-family: "OpenSans_Condensed-BoldItalic";
+    margin-top: 362px;
+    color: #FDF7E9;
+}
+.p7{
+    position: absolute;
+    font-family: 'OpenSans-Bold';
+    text-align: center;
+    font-size: 21px;
+    transform: rotate(-90deg);
+    margin-left: 55px;
+    margin-top: 380px;
+    color: #FDF7E9;
+}
+.p8p9p10{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 493px;
+    font-family: "OpenSans_Condensed-Bold";
+    font-size: 27px;
+    margin-left: 70px;
+    margin-top: 476px;
+    color: #FDF7E9;
+}
+.p11{
+    position: absolute;
+    font-family: 'OpenSans-Bold';
+    text-align: center;
+    font-size: 70px;
+    
+    -webkit-text-stroke: 2px #FDF7E9;
+    color: #F40E1E;
+    margin-top: 547px;
+    margin-left: 93px;
+}
+.p12p13{
+    display: flex;
+    justify-content: space-between;
+    width: 448px;
+    position: absolute;
+    color: #FDF7E9;
+    font-family: "OpenSans_Condensed-SemiBold";
+    font-size: 21px;
+    line-height: 98%;
+    margin-top: 648px;
+    margin-left: 93px;
+}
+.p13{
+    text-align: right;
+}
+.p14{
+    position: absolute;
+    font-family: 'OpenSans-ExtraBoldItalic';
+    text-align: center;
+    font-size: 119px;
+    color: #FDF7E9;
+    margin-top: 615px;
+    margin-left: 153px;
+
+}
+.p17{
+    position: absolute;
+    font-family: "OpenSans_Condensed-Bold";
+    color: #FDF7E9;
+    font-size: 61px;
+    margin-top: 785px;
+    margin-left: 53px;
+}
+.divsticker1{
+    margin-top: -20%;
+    padding-left: 64%;
+}
+.sticker1{
+    width: 500px;
+    height: 500px;
+}
+.divsticker2{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 1%;
+    padding-left: 7%;
+
+}
+.sticker2{
+    width: 468px;
+    height: 561px;
+
+}
+.p18{
+    position: absolute;
+    font-size: 42px;
+    color: #FDF7E9;
+    margin-top: 793px;
+    margin-left: 190px;
+}
+.p1801{
+    font-family: "OpenSans_Condensed-ExtraBold";
+}
+.p1802{
+    font-family: "OpenSans_Condensed-SemiBold";
+}
+.p1803{
+    font-family: "OpenSans_Condensed-BoldItalic";
+}
+.p1804{
+    font-family: "OpenSans_Condensed-SemiBold";
+}
+/* ВОСЬМОЙ БЛОК */
+.eighthblock{
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+.divfreshtomatos{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.freshtomatos{
+    width: 1084px;
+}
+.ftom1{
+    position: absolute;
+    font-family: "OpenSans_Condensed-ExtraBold";
+    text-align: center;
+    font-size: 74px;
+    color: #F40E1E;
+    margin-top: 45px;
+}
+.ftom2{
+    position: absolute;
+    font-family: "OpenSans_Condensed-ExtraBoldItalic";
+    font-size: 32px;
+    text-align: left;
+    color: #016361;
+    margin-left: -440px;
+    margin-top: 50px; 
+}
+.ftom3{ 
+    position: absolute;
+    font-family: 'OpenSans-BoldItalic';
+    text-align: center;
+    font-size: 40px;
+    margin-left: 450px;
+    margin-top: 24px;
+    color: #FDF7E9;
+}
+.ftom4{
+position: absolute;
+font-size: 32px;
+font-family: 'OpenSans-ExtraBoldItalic';
+color: #F40E1E;
+margin-top: 155px;
+margin-left: 350px;
+}
+.ftom5{
+    position: absolute;
+    color: #F40E1E;
+    font-size: 85px;
+    font-family: 'OpenSans-SemiBoldItalic';
+    margin-left: -400px;
+    margin-top: 430px; 
+}
+.ftom6{
+    position: absolute;
+    font-family: "OpenSans_Condensed-SemiBold";
+    margin-left: -400px;
+    margin-top: 605px;
+    font-size: 21px;
+    color: #F40E1E;
+}
+.ftom7{
+    position: absolute;
+    font-family: "OpenSans_Condensed-ExtraBold";
+    text-align: center;
+    font-size: 74px;
+    color: #F40E1E;
+    margin-top: 579px;
+}
+.ftom8{
+    position: absolute;
+    text-align: center;
+    margin-top: 390px;
+    margin-left: 350px;
+}
+.ftom801{
+    font-family: "OpenSans_Condensed-BoldItalic";
+    font-size: 33px;
+    color: #F40E1E;
+}
+.ftom802{
+    font-family: "OpenSans_Condensed-SemiBold";
+    font-size: 107px;
+    color: #F40E1E;
+}
+.ftom803{
+    font-family: 'OpenSans-SemiBold';
+    font-size: 34px;
+    letter-spacing: 17px;
+    color: #F40E1E;
+}
+.ftom804{
+    font-family: "OpenSans_Condensed-BoldItalic";
+    font-size: 34px;
+    color: #016361;
+}
+/* ДЕВЯТЫЙ БЛОК */
+.ninthblock{
+    height: 745px;
+    background-color: #F40E1E;
+    margin-top: 15%;
+}
+.word1{
+    
+    font-family: "OpenSans_Condensed-BoldItalic";
+    font-size: 98px;
+    transform: rotate(-6deg);
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    color: #FDF7E9;
+}
+.word2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.word201{
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 41px;
+    color: #FDF7E9;
+    padding-right: 23px;
+}
+.word202{
+    font-family: 'OpenSans-ExtraBold';
+    -webkit-text-stroke: 3px #FDF7E9;
+    color: #F40E1E;
+    font-size: 154px;
+
+}
+.word203{
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 41px;
+    color: #FDF7E9;
+    padding-left: 23px;
+}
+.word3{
+    display: flex;
+    justify-content: center;
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 66px;
+    color: #FDF7E9;
+    padding-top: 15px;
+}
+.word4{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: "OpenSans_Condensed-SemiBoldItalic";
+    font-size: 37px;
+    color: #FDF7E9;
+    transform: rotate(-6deg);
+    padding-right: 16px;
+}
+.div9blockimg{
+    display: flex;
+    justify-content: center;
+    width: 438px;
+    height: 57px;
+    margin-top: -42px;
+    margin-left: 495px;
+}
+.word5{
+    display: flex;
+    justify-content: center;
+    color: #FDF7E9;
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 66px;
+    padding-top: 20px;
+
+}
+.word6{
+    display: flex;
+    justify-content: center;
+    color: #FDF7E9;
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 33px;
+    padding-top: 30px;
+}
+/* ДЕСЯТЫЙ БЛОК */
+.tenthblock{
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+}
+.block10{
+    width: 1440px;
+}
+.text1{
+position: absolute;
+font-family: 'OpenSans-Bold';
+font-size: 32px;
+color: #016361;
+padding-top: 152px;
+padding-left: 125px;
+}
+.text2{
+    position: absolute;
+    font-family: 'OpenSans-Bold';
+    font-size: 72px;
+    color: #016361;
+    padding-top: 180px;
+    padding-left: 120px;
+}
+.text34{
+position: absolute;
+display: flex;
+flex-direction: row;
+gap: 110px;
+font-family: "OpenSans_Condensed-BoldItalic";
+color: #016361;
+font-size: 32px;
+padding-top: 300px;
+padding-left: 128px;
+}
+.text5{
+    position: absolute;
+    padding-top: 170px;
+    padding-left: 850px;
+}
+.pizza{
+    font-family: "OpenSans_Condensed-BoldItalic";
+    font-size: 96px;
+    color: #F40E1E;
+}
+.club{
+    font-family: "OpenSans_Condensed-ExtraBold";
+    font-size: 128px;  
+    color: #F40E1E;
+}
+.text6{
+    position: absolute;
+    padding-top: 330px;
+    padding-left: 1040px;
+    color: #F40E1E;
+    font-family: 'OpenSans-Bold';
+    font-size: 32px;
+}
+.text7{
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 24px;
+    font-family: "OpenSans_Condensed-Bold";
+    color: #016361;
+    padding-bottom: 150px;
+    padding-left: 930px;
+}
+.text8{
+    position: absolute;
+    text-align: right;
+    font-size: 24px;
+    font-family: 'OpenSans-SemiBold';
+    padding-top: 600px;
+    padding-left: 510px;
+    color: #016361;
+}
+.text9{
+    position: absolute;
+    text-align: right;
+    font-size: 50px;
+    font-family: "OpenSans_Condensed-ExtraBold";
+    padding-top: 700px;
+    padding-left: 240px;
+    color: #016361;
+}
+.text10{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'OpenSans-SemiBold';
+    padding-top: 790px;
+    padding-left: 135px;
+    color: #FDF7E9;
+}
+.text11{
+    position: absolute;
+    font-size: 124px;
+    font-family: 'OpenSans-ExtraBold';
+    letter-spacing: 43px;
+    text-align: center;
+    padding-top: 915px;
+    padding-left: 135px;
+    color: #016361;
+}
+.text12{
+    position: absolute;
+    color: #F40E1E;
+    font-family: 'OpenSans-Bold';
+    font-size: 76px;
+    padding-top: 550px;
+    padding-left: 1090px;
+}
+.text13{
+    position: absolute;
+    font-family: 'OpenSans-Bold';
+    font-size: 34px;
+    padding-top: 720px;
+    padding-left: 1090px;
+    color: #F40E1E;
+}
+.text14{
+    position: absolute;
+    font-family: 'OpenSans-ExtraBold';
+    padding-top: 590px;
+    padding-left: 805px;
+    color: #F40E1E;
+    font-size: 52px;
+    text-align: center;
+}
+.text15{
+    position: absolute;
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 52px;
+    padding-top: 800px;
+    padding-left: 735px;
+    -webkit-text-stroke: 3px #F40E1E;
+    color: #FDF7E9;
+}
+/* ОДИНАДЦАТЫЙ БЛОК */
+.eleventhblock{
+    margin-top: 10%;
+}
+.divpizzabox{
+    width: 100%;
+    padding-left: 86px;
+}
+.pizzabox2{
+    width: 625px;
+    height: 1228px;
+}
+.pizzaboxtext{
+    position: absolute;
+    font-size: 24px;
+    color: #F40E1E;
+    font-family: 'OpenSans-Bold';
+    line-height: normal;
+    padding-left: 199px;
+    padding-top: 690px;
+}
+.deliverytext{
+    color: #016361;
+    text-align: right;
+    position: absolute;
+    font-size: 300px;
+    font-family: "OpenSans_Condensed-ExtraBold";
+    padding-left: 1010px;
+}
+.everydaytext{
+    position: absolute;
+    color: #F40E1E;
+    font-size: 30px;
+    font-family: 'OpenSans-ExtraBold';
+    padding-left: 1075px;
+    padding-top: 300px;
+}
+/* ДВЕНАДЦАТЫЙ БЛОК */
+.twelthblock{
+    margin-top: 10%;
+}
+.divpizzaboy{
+    width: 100%;
+    padding-left: 710px;
+    
+}
+.pizzaboy{
+    width: 604px;
+    height: 686px;
+    
+}
+.pizzatext{
+    position: absolute;
+    padding-left: 1020px;
+    padding-top: 25px;
+    font-family: 'OpenSans-ExtraBold';
+    color: #F40E1E;
+    font-size: 96px;
+}
+.ovenfreshtext{
+    position: absolute;
+    font-family: "OpenSans_Condensed-BoldItalic";
+    font-size: 40px;
+    color: #016361;
+    padding-left: 1080px;
+    margin-top: -10px;
+}
+.wantpizzatext{
+    position: absolute;
+    font-family: 'OpenSans-ExtraBold';
+    color: #F40E1E;
+    text-align: center;
+    font-size: 32px;
+    padding-left: 800px;
+    padding-top: 580px;
+}
+.alphabettext{
+    position: absolute;
+    font-size: 300px;
+    color: #F40E1E;
+    font-family: "OpenSans_Condensed-ExtraBold";
+    margin-top: -10%;
+    padding-left: 86px;
+}
+/* ТРИНАДЦАТЫЙ БЛОК */
+.thirteenthblock{
+    height: 931px;
+    background-color: #016361;
+    margin-top: 10%;
+    
+
+}
+.divnet{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+} 
+.net{
+    width: 1124px;
+}
+.divmoltobene{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-left: 830px;
+    margin-top: -8%;
+}
+.moltobene{
+    width: 676px;
+    
+}
+.moltobenetext{
+    transform: rotate(-18.989deg);
+    color: #F40E1E;
+    font-size: 55px;
+    position: absolute;
+    font-family: 'OpenSans-SemiBold';
+    padding-left: 890px;
+    padding-top: 180px;
+}
+/* .alphabet{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+  width: 1124px;
+  font-size: 74px;
+  font-family: 'OpenSans-Regular';
+  position: absolute;
+  color: #FDF7E9;
+  gap: 96px 49px;
+} */
+/* ЧЕТЫРНАДЦЦАТЫЙ БЛОК */
+.fortenthblock{
+    margin-top: 25%;
+}
+.divtwoposters{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.twoposters{
+    width: 1143px;
+    height: 727px;
+}
+.divfinimges{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 17px;
+}
+.finimges{
+    width: 1106px;
+   
+}
+/* ПЯТНАДЦАТЫЙ БЛОК */
+.fifthteensblock{
+    margin-top: -5%;
+}
+.divtwopizzabox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.twopizzabox{
+    width: 687px;
+    height: 686px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-family: 'OpenSans-SemiBold';
+    color: #F40E1E;
+}
+.divcheckend{
+    width: 100%;
+    margin-top: 10%;
+    overflow: hidden;
+}
+.checkend{
+    width: 100%;
 }
