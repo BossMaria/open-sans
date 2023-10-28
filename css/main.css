@@ -219,7 +219,7 @@ font-size: 24px;
     overflow: hidden;
 
 }
-/* не работает комнеднсед */
+
 .standart{
     color: #F40E1E;
     font-family: "OpenSans_Condensed-ExtraBold";
@@ -356,7 +356,7 @@ font-size: 24px;
 .italicextraboldcondenced{
     font-family: "OpenSans_Condensed-ExtraBoldItalic";
 }
-/* <!-- ЧЕТВЕРТЫЙ БЛОК МЕНЮ --> */
+/* <!-- ЧЕТВЕРТЫЙ БЛОК --> */
 .poster1{
     position: relative;
     width: 100%;
@@ -418,7 +418,7 @@ font-size: 24px;
     color: var(--fdf-7-e-9, #FDF7E9);
 }
 
-/* <!-- ПЯТЫЙ БЛОК МЕНЮ --> */
+/* <!-- ПЯТЫЙ БЛОК --> */
 .fifthblock{
     display: flex;
     margin-top: 10%;
